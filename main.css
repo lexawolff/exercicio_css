@@ -1,149 +1,104 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-
-header {
+body > header {
+    background-color: bisque;
     padding: 16px 0;
-    background-color: #182c61;
-    color: #ecf0f1;
 }
-
-header,
-section h2,
-section h3,
-form button {
-    font-family: 'Bungee', cursive;
-    font-weight: normal;
-}
-
-body, input,
-textarea {
-    font-family: 'Roboto', sans-serif;
-}
-
-header nav li {
-    display: inline;
-    margin-left: 16px;
-    font-size: 18px;
-}
-
-header nav li a {
-    color: #ecf0f1;
-    text-decoration: none;
-}
-
-.container {
-    max-width: 1280px;
-    width: 100%;
-    margin: 0 auto;
-}
-
 header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
-header .container,
-section .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.brands-list img {
-    height: 24px;
-}
-
-.brands-list li {
+header li {
     display: inline;
-    margin-right: 8px;
+    font-weight: bold;
+    margin-left: 16px;
 }
-
-section .container {
-    align-items: flex-start;
-}
-
-section {
-    padding: 24px 0;
-}
-
-section h2 {
-    margin-bottom: 16px;
-   
-}
-
-section {
-    color: #182c61;
-}
-
-section p {
-    margin-bottom: 8px;
-}
-
-.store-front {
-    margin-right: 32px;
-    
-}
-
-#contact .container {
-    display: block;
-}
-
-.contact-methods {
-    display: flex;
-    justify-content: space-between;
-}
-
-form input,
-form textarea,
-form button {
-    display: block;
-    width: 320px;
-    margin-bottom: 8px;
-    padding: 8px;
-}
-
-form textarea {
-    resize: none;
-    height: 180px;
-}
-
-form button {
-    background-color: #182c61;
-    color: #ecf0f1;
-    border: none;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: #314e9e;
-}
-
-input:focus, textarea:focus {
-    outline-color: #182c61;
-}
-
-.social-links img {
-    height: 24px;
-} 
-
-.social-links li {
-    display: inline;
-    margin-right: 8px;
-}
-.social-links li a {
+header li a {
+    color: rgb(17, 21, 21);
     text-decoration: none;
 }
-
-section h3 {
-    margin-bottom: 16px;
+h1 {
+    color: rgb(56, 29, 12);
 }
-
-footer {
-    background-color: #182c61;
-    color: #ecf0f1;
+h2 {
+    color: green;
+}
+#esportes {
+    background-color: rgb(162, 215, 162);
+}
+#esportes .article article a {
+    background-color: rgb(174, 212, 116);
+}
+#economia h2 {
+    color: rgba(39, 33, 2, 0.42)
+}
+#economia {
+    background-color: rgb(234, 221, 145);
+}
+#economia .article article a {
+    background-color: goldenrod;
+}
+#tecnologia h2 {
+    color: rgb(134, 8, 8);
+}
+#tecnologia {
+    background-color: rgb(246, 144, 144) ;
+}
+#tecnologia .article article a {
+    background-color: rgb(212, 53, 53) ;
+}
+#entretenimento h2 {
+    color: rgb(102, 102, 207);
+}
+#entretenimento {
+    background-color: rgb(187, 187, 255);
+}
+#entretenimento .article article a {
+    background-color: rgb(98, 98, 192);
+}
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+.article {
+    display: flex;
+    justify-content: space-between;
+}
+.article article img {
+    width: 100%;
+}
+.article article {
+    width: 30%;
+}
+section {
     padding: 16px 0;
+}
+section h2 {
+    font-size: 32px;
+}
+section h2,
+.article article {
+    padding: 16px;
+}
+.article article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.article article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 8px;
+}
+.article article a:hover {
+    text-decoration: underline;
+}
+.article article h3 {
+    font-size: 24px;
 }
